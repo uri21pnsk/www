@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+ <head> 
+	<title> Jornada de
+rob&oacutetica - Elaios </title>
+<style>
+@font-face{
+font-family:pizzabot;
+src:url(pizzabot.ttf);
+}
+@font-face{
+font-family:mandroiddbb;
+src:url(MandroidBB.ttf);
+}
+.titulo{
+        font-family: pizzabot;
+}
+.creditos{
+         font-family:pizzabot;
+         font-size:150%
+         color:blue;
+    
+         position:absolute;
+         left:20px;
+         width:250px;
+         height:50px;
+
+transition: all 2s ease-in-out;
+ }
+.creditos:hover{
+               background-color:red;
+
+               transform:rotate(15deg);}
+.evento{
+        position:absolute;
+        left:300px;
+        width:300px;
+        border-style:solid;
+        border-width:5px;
+        border-color:red;
+        border-radius:30px;
+       
+     }
+.evento:hover{
+background-color:yellow;
+}
+.bot1{
+       position:absolute;
+       left:60px;
+       top:200px;
+       width:252px;
+       height:250px;
+       background-image:url(bot1.png);
+       transition: all 2s ease-in-out;
+}
+.bot1:hover{
+            background-image:url(bot2.png); 
+            transform:translate(400px,100px);
+}      
+.bot2{
+       position:absolute;
+       left:564px;
+       top:240px;
+       width:250px;
+       height:250px; 
+       background-image:url(bot3.png);
+       transition: all 2s ease-in-out;
+}
+.bot2:hover{
+            transform:translate(-100px,-200px);
+            trasnform:scale(20%);
+             background-image:url(bot1.png);}
+.hora{
+ color:blue;
+}
+
+.apuntarse{
+position:absolute;
+left:90px;
+top:30px;
+width:200px;
+height:250px;
+background-image:url(boton3.png);
+ transition: all 1s ease-in-out;
+}
+.apuntarse:hover{
+                background-image:url(boton1.png);   }
+
+
+
+</style>
+ </head>
+ <body bgcolor=#31cb00>
+<div class="titulo">
+ <h1> IES ELAIOS> </h1>
+</div>
+<div contenteditable="true">
+
+<div class="evento">
+<h2> Reuni&oacuten anual de amigos del robot </h2>
+<ul style="color:#343deb">
+	<li>9:00 Recepción y entrega de material </li>
+	<li>10:00 Presentación del Robot "perseguidor" </li>
+	<li>11:10 Desayuno y mesa redonda </li>
+	<li>12:30 Charla coloquio: "Los robots y la policía " </li>
+	<li><b>13:30 Pausa para comer</b></li>
+	<li>15:30 Demostración de drones en el patio </li>
+	<li>16:30 Acto final: Pelea de robots </li>
+</ul>
+</div>
+</div>
+<a href="https://ieselaios.catedu.es/"> 
+pagina oficial IES Élaios </a> </a>
+
+<div class="bot1"></div>
+<div class="bot2"></div>
+
+
+<div class="creditos">
+by Jesús Tomás Dado
+</div>
+</div class="apuntarse">
+</div>
+</body>
+</html>
